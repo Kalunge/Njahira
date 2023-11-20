@@ -45,6 +45,9 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
 }
 
 section {
@@ -55,6 +58,14 @@ section {
 /* CSS Resets end */
 
 /* Navbar */
+
+
+h1, h2, h3 {
+  color: #007bff; /* Adjust color as needed */
+}
+
+/* Add more styling as needed */
+
 nav {
   position: sticky;
   top: 0;
@@ -426,4 +437,18 @@ footer {
   .contact-form-container {
     max-width: 17.75rem;
   }
+  .animate {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 }
