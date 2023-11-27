@@ -387,6 +387,7 @@ footer {
   .bio {
     margin-top: -7rem;
     width: 20.5rem;
+    margin-top: 0.25px;
   }
 
   .more-about {
@@ -428,6 +429,7 @@ footer {
 
   .bio {
     width: 18.3rem;
+
   }
 
   .project-container {
